@@ -1,0 +1,111 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    font-size: 125%;
+    float: left;
+}
+@media (min-width: 380px) {
+.col-sm-5ths {
+        width: 20%;
+        font-size: 175%;
+        float: left;
+    }
+    .spacer {
+        font-size: 50%;
+    }
+}
+@media (min-width: 600px) {
+.col-sm-5ths {
+        width: 20%;
+        font-size: 200%;
+        float: left;
+    }
+    .spacer {
+        font-size: 50%;
+    }
+}
+@media (min-width: 768px) {
+.col-sm-5ths {
+        width: 20%;
+        font-size: 300%;
+        float: left;
+    }
+    .spacer {
+        font-size: 50%;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        font-size: 400%;
+        float: left;
+    }
+    .spacer {
+        font-size: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        font-size: 500%;
+        float: left;
+    }
+    .spacer {
+        font-size: 75%;
+    }
+}
+.arabic-text {
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    background-color: #edeaea;
+}
+
+a.link-to-sound {
+    text-decoration:none;
+}
+
+a.pages {
+    text-decoration:none;
+}
+
+.pages {
+    color: black;
+}
+
+.page-nav {
+    text-align: center;
+}
+
+.current-page {
+    color: lightgrey;
+}
