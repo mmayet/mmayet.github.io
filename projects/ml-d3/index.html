@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html>
 <meta charset="utf-8">
+
+<head>
+    <!-- CSS Files -->
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/portfolio-item.css" rel="stylesheet">
+    <link href="../../css/materialize.css" rel="stylesheet">
+    <!-- Google Analytics -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-88241702-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
+
 <body>
-	<!-- CSS Files -->
-	<link href="css/stylesheet.css" rel="stylesheet">
-	<link href="css/portfolio-item.css" rel="stylesheet">
-	<link href="../../css/materialize.css" rel="stylesheet">
-	
-	<!-- Start of Page -->
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 text">
-				<div class="col-md-4">
-					<a href="../../"><button>Return back to Mudassir Mayet</button></a>
-				</div>
-				<h1 class="page-header">Wine Data
+    <!-- Start of Page -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text">
+                <div class="col-md-4">
+                    <a href="../../">
+                        <button>Return back to Mudassir Mayet</button>
+                    </a>
+                </div>
+                <h1 class="page-header">Wine Data
 					<small>Data Visualization</small>
 				</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8 datavis"></div>
-			<div class="col-md-4 text">
-				<div class="col-md-4 wine-types">
-					<h3>Select a type of wine:</h3>
-					<button id="red" style="font-weight:bolder;">Red Wines</button>
-					<button id="white">White Wines</button>
-				</div>
-				<div class="col-md-4 variables">
-					<h3>Select a variable:</h3>
-					<button class="IV" id="fa" value="Fixed Acidity">Fixed Acidity</button>
-					<button class="IV" id="va" value="Volatile Acidity">Volatile Acidity</button>
-					<button class="IV" id="ca" value="Citric Acid">Citric Acid </button>
-					<button class="IV" id="rs" value="Residual Sugar">Residual Sugar </button>
-					<button class="IV" id="ch" value="Chlorides"> Chlorides</button>
-					<button class="IV" id="fsd" value="Free Sulfur Dioxide">Free Sulfur Dioxide</button>
-					<button class="IV" id="tsd" value="Total Sulfur Dioxide">Total Sulfur Dioxide</button>
-					<button class="IV" id="dn" value="Density">Density</button>
-					<button class="IV" id="ph" value="pH">pH</button>
-					<button class="IV" id="sp" value="Sulphates">Sulphates</button>
-					<button class="IV" id="al" value="Alcohol">Alcohol</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-	<div class="container">
-		<hr>
-		<footer>
-			<div class="row">
-				<div class="col-lg-12">
-					<p>Designed|Maintained by <a href="http://mudmayet.herokuapp.com/">Muddassir Mayet</a></p>
-				</div>
-			</div>
-		</footer>
-	</div>
-
-	<!-- JS Files-->
-	<!-- jQuery Version 1.11.0 -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 datavis"></div>
+            <div class="col-md-4 text">
+                <div class="col-md-4 wine-types">
+                    <h3>Select a type of wine:</h3>
+                    <button id="red" style="font-weight:bolder;">Red Wines</button>
+                    <button id="white">White Wines</button>
+                </div>
+                <div class="col-md-4 variables">
+                    <h3>Select a variable:</h3>
+                    <button class="IV" id="fa" value="Fixed Acidity">Fixed Acidity</button>
+                    <button class="IV" id="va" value="Volatile Acidity">Volatile Acidity</button>
+                    <button class="IV" id="ca" value="Citric Acid">Citric Acid </button>
+                    <button class="IV" id="rs" value="Residual Sugar">Residual Sugar </button>
+                    <button class="IV" id="ch" value="Chlorides"> Chlorides</button>
+                    <button class="IV" id="fsd" value="Free Sulfur Dioxide">Free Sulfur Dioxide</button>
+                    <button class="IV" id="tsd" value="Total Sulfur Dioxide">Total Sulfur Dioxide</button>
+                    <button class="IV" id="dn" value="Density">Density</button>
+                    <button class="IV" id="ph" value="pH">pH</button>
+                    <button class="IV" id="sp" value="Sulphates">Sulphates</button>
+                    <button class="IV" id="al" value="Alcohol">Alcohol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container">
+        <hr>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Designed|Maintained by <a href="http://mudmayet.herokuapp.com/">Muddassir Mayet</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- JS Files-->
+    <!-- jQuery Version 1.11.0 -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="../../js/materialize.js"></script>
-
-	<script src="https://d3js.org/d3.v3.min.js"></script>
-	<script src="js/clickFunction.js"></script>
-	<script src="js/grapher.js"></script>
-	
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="js/clickFunction.js"></script>
+    <script src="js/grapher.js"></script>
 </body>
+
 </html>
