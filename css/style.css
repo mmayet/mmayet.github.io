@@ -95,3 +95,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 .yellow-darken-1-text {
     color: #fdd835!important;
 }
+
+.mylist > li {
+    padding-bottom: 5px;
+}
