@@ -96,7 +96,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
     color: #fdd835!important;
 }
 
-.mylist > li {
+.mylist > ol > li {
     padding-bottom: 5px;
 }
 
