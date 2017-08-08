@@ -99,3 +99,20 @@ textarea.materialize-textarea:focus:not([readonly]) {
 .mylist > li {
     padding-bottom: 5px;
 }
+
+a.highlight-link {
+    color: #66bb6a;
+    border-bottom: .01px dotted;
+}
+
+a.highlight-link:hover {
+    color: #43a047;
+}
+
+a.highlight-link:focus {
+    color: #2e7d32;
+}
+
+.nice-font {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
