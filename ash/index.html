@@ -28,6 +28,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/ashstyle.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link rel="stylesheet" href="../css/hearts.css" />
+	<link rel="stylesheet" href="../css/font-awesome.min.css" />
     <!-- Google Analytics -->
     <script>
     (function(i, s, o, g, r, a, m) {
@@ -52,19 +55,57 @@
         <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><i class="material-icons">brightness_auto</i>A.S.H.</a>
         </div>
     </nav>
+
     <div class="container">
+            <div class="row center flow-text">
+                <br/>
+                <div class="card">
+                    <div class="card-tabs">
+                        <ul class="tabs tabs-fixed-width">
+                            <li class="tab no-line"><a class="active" href="#engagement">Engagement!</a></li>
+                            <li class="tab no-line"><a href="#nikah">Nikāḥ!</a></li>
+                        </ul>
+                    </div>
+                    <div class="card-content green lighten-3 center grey-text text-darken-3">
+                        <div class="" id="engagement">
+                            <p class="flow-text">
+                                <span>Ayesha! Our engagement is on July 7th 2018 at 7pm!</span>
+                                <div class="countdown">
+                                    <a class="btn-floating btn-large pulse green"><i class="material-icons">favorite</i></a>
+                                    <span class="counter" id="engagement-countdown"></span>
+                                    <a class="btn-floating btn-large pulse green"><i class="material-icons">favorite</i></a>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="" id="nikah">
+                            <p class="flow-text">
+                                <span>Ayesha! Our Nikāḥ is on July 5th 2019!</span>
+                                <div class="countdown">
+                                    <a class="btn-floating btn-large pulse green"><i class="material-icons">favorite</i></a>
+                                    <span class="counter" id="nikah-countdown"></span>
+                                    <a class="btn-floating btn-large pulse green"><i class="material-icons">favorite</i></a>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hearts"></div>
+            </div>
+        </div>
+        
+
+    
+
+    <!-- <div class="container">
         <div class="row flow-text mylist">
             <p class="flow-text">
                 This is just so you can click the URLs and copy and paste things easily.
             </p>
-            <!-- ***
-            
             <div class="divider"></div>
             <p class="flow-text amber-text">I overheard that the IOK flight leaves Tuesday morning? <strong>Can we have a super quick 3 second  mumbled awkward drive-by salām on Monday at like 12:58?</strong> — I will stop updating the website after this, <em>in-shāʾ-Allāh</em>.</p>
             <div class="divider"></div>
             <br/>
-
-            *** -->
+            <p id="event-countdown"></p>
             <div class="row">
                 <a href="https://docs.google.com/document/d/1MbLWImwPh4PBHCZEGVJVpI2p38ODwzuwzfx_UoPu2ns/edit?usp=sharing" id="download-button" class="btn-large waves-effect waves-light green lighten-1" onclick="ga('send', 'event', 'Memoirs', 'Open', 'GDoc');" target="_blank">View This Letter <i class="material-icons right">file_download</i></a>
             </div>
@@ -106,7 +147,7 @@
             </ol>
             <h3 class="center"><strong>ﷺ 💚 ﷺ 💚 ﷺ</strong></h3>
         </div>
-    </div>
+    </div> -->
     <footer class="page-footer green">
         <div class="container">
             <div class="row">
@@ -127,6 +168,9 @@
     <script src="../js/materialize.js"></script>
     <script src="../js/contact_me.js"></script>
     <script src="../js/init.js"></script>
+    <script src="../js/ashscript.js"></script>      
+    <script src="../js/hearts.js"></script>
+    <script src="../js/prefixfree.min.js"></script> 
 </body>
 
 </html>

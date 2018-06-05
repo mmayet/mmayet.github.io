@@ -1,0 +1,22 @@
+.tabs .tab a {
+    color: #81c784;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    color: #388e3c;
+}
+
+.tabs .indicator {
+    background-color: #4caf50;
+}
+
+.countdown {
+    padding-top: 10px;
+    font-size: 3.7rem;
+    color:#065f0a;
+}
+
+.counter {
+    padding: 5px;
+}
