@@ -8,6 +8,10 @@
  * Made By MaterializeCSS.com
  */
 
+nav, .page-footer {
+    background-color: #81c784;
+}
+
 .icon-block {
     padding: 0 15px;
 }
@@ -19,6 +23,7 @@
 .myface {
     margin: auto;
     display: block;
+    max-width: 70%!important;
 }
 
 
@@ -115,4 +120,8 @@ a.highlight-link:focus {
 
 .nice-font {
     font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.lower-pic {
+    padding-top: 20px;
 }
