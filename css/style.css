@@ -12,6 +12,11 @@ nav, .page-footer {
     background-color: #81c784;
 }
 
+.link-central {
+    max-height: 64px!important;
+    max-width: auto;
+}
+
 .icon-block {
     padding: 0 15px;
 }
