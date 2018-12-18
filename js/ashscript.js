@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('.collapsible').collapsible();
+});
+
 countdownTimer = function(dateString) {
     // Set the date we're counting down to
     var endDate = new Date(dateString).getTime();
@@ -21,5 +25,4 @@ countdownTimer = function(dateString) {
     return days + "<sub><small>D</small></sub><span class='hide-on-small-only'> " + hours + "<sub><small>H</small></sub> " + minutes + "<sub><small>M</small></sub> " + seconds + "<sub><small>S</small></sub></span>";
     //}, 500);
 }
-setInterval(function() { document.getElementById("engagement-countdown").innerHTML = countdownTimer("July 7, 2018 19:00:00"); }, 500);
-setInterval(function() { document.getElementById("nikah-countdown").innerHTML = countdownTimer("July 5, 2019 00:00:00"); }, 500);
+setInterval(function() { document.getElementById("walimah-countdown").innerHTML = countdownTimer("July 6, 2019 00:00:00"); }, 500);
