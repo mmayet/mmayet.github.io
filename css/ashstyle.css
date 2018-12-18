@@ -14,7 +14,7 @@
 .countdown {
     padding-top: 10px;
     font-size: 3.7rem;
-    color:#065f0a;
+    color: #065f0a;
 }
 
 .counter {
@@ -22,5 +22,14 @@
 }
 
 .collapsible-header .material-icons {
-	margin-top: 5px;
+    margin-top: 5px;
+}
+
+.hearts {
+    pointer-events: none
+}
+
+body {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0)!important;
+    -webkit-tap-highlight-color: transparent!important;
 }
