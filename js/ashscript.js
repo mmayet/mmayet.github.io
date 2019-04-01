@@ -25,4 +25,4 @@ countdownTimer = function(dateString) {
     return days + "<sub><small>D</small></sub><span class='hide-on-small-only'> " + hours + "<sub><small>H</small></sub> " + minutes + "<sub><small>M</small></sub> " + seconds + "<sub><small>S</small></sub></span>";
     //}, 500);
 }
-setInterval(function() { document.getElementById("walimah-countdown").innerHTML = countdownTimer("July 6, 2019 00:00:00"); }, 500);
+setInterval(function() { document.getElementById("walimah-countdown").innerHTML = countdownTimer("July 4, 2019 16:00:00"); }, 500);
